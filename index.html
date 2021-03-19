@@ -4,60 +4,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="/css/style.css">
   <title>Frontend Mentor|Pricing Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
 </head>
 
 <body>
 
-  <h1>Our Pricing</h1>
+  <div class="bg-top">
+    <img src="/images/bg-top.svg" alt="">
+  </div>
+  <div class="bg-bottom">
+    <img src="/images/bg-bottom.svg" alt="">
+  </div>
 
-  <span>Annually</span>
-  <span>Monthly</span>
-  <div class="basic">
+  <div class="our-princing">
+    <h1>Our Pricing</h1>
+    <div class="modificalle-pricing">
+      <span>Annually</span>
+      <span>Monthly</span>
+    </div>
+  </div>
+ 
+
+  <div id="basic" class="feature">
+    <div class="feature-info">
     <h3>Basic</h3>
-    <h2>&dollar;19.99</h2>
-    <h2>&dollar;199.99</h2>
+   <h2>&dollar;19.99</h2>
+    <h2 class="anually">&dollar;199.99</h2>
     <p>500 GB Storage</p>
     <p>2 Users Allowed</p>
     <p>Send up to 3 GB</p>
-    <a href="">Learn More</a>
+    <a href="" class="more">Learn More</a>
+    </div>
   </div>
 
 
-  <div class="professional">
+  <div id="professional" class="feature">
+    <div class="feature-info">
     <h3>Professional</h3>
     <h2>&dollar;24.99</h2>
-    <h2>&dollar;249.99</h2>
+    <h2 class="anually">&dollar;249.99</h2>
     <p>1 TB Storage</p>
     <p>5 Users Allowed</p>
     <p>Send up to 10 GB</p>
-    <a href="">Learn More</a>
+    <a href="" class="more">Learn More</a>
+    </div>
   </div>
 
-  <div class="master">
+  <div id="master" class="feature"> 
+    <div class="feature-info">
     <h3>Master</h3>
     <h2>&dollar;39.99</h2>
-    <h2>&dollar;399.</h2>
+    <h2 class="anually">&dollar;399.</h2>
     <p>2 TB Storage</p>
     <p>10 Users Allowed</p>
     <p>Send up to 20 GB</p>
-    <a href="">Learn More</a>
+    <a href="" class="more">Learn More</a>
+    </div>
   </div>
 
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Vitória</a>.</span> 
   </div>
 </body>
 
